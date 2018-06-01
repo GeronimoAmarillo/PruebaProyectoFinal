@@ -34,7 +34,7 @@ namespace LogicaDeServicioTests
             var result = LogicaUsuario.Login(user, pass);
 
             Assert.IsNotNull(result);
-            Assert.IsInstanceOfType(result, typeof(Usuarios));
+            Assert.IsInstanceOfType(result, typeof(Usuario));
 
         }
 
